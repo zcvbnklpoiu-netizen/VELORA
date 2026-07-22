@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VELORA | Luxury Watches</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Premium Preloader (شاشة التحميل الاحترافية) -->
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="loader-ring"></div>
+            <div class="loader-text">VELORA</div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <!-- Logo -->
+                <a href="#" class="logo">
+                    <span>VELORA</span>
+                </a>
+
+                <!-- Navigation -->
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#collection">Collection</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <!-- Button -->
+                <a href="#collection" class="nav-btn">Explore</a>
+
+                <!-- Mobile Menu -->
+                <div class="menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <!-- Premium 3D Canvas Background -->
+        <canvas id="hero-3d-canvas"></canvas>
+
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text reveal-hidden">
+                    <span class="hero-subtitle">Luxury Watch Collection</span>
+                    <h1>Time Is More Than <span>Luxury</span></h1>
+                    <p>Discover premium watches crafted with timeless elegance, exceptional precision, and sophisticated design for those who appreciate true luxury.</p>
+
+                    <div class="hero-buttons">
+                        <a href="#collection" class="btn btn-primary">Explore Collection</a>
+                        <a href="#about" class="btn btn-secondary">Learn More</a>
+                    </div>
+
+                    <div class="hero-info">
+                        <div class="info-box">
+                            <h3>15+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="info-box">
+                            <h3>25K+</h3>
+                            <p>Happy Customers</p>
+                        </div>
+                        <div class="info-box">
+                            <h3>120+</h3>
+                            <p>Luxury Models</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- إضافة تأثير الطفو الفاخر للصورة الأساسية -->
+                <div class="hero-image premium-float">
+                    <img src="images/hero.png" alt="Luxury Watch">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image reveal-hidden slide-left premium-float">
+                    <img src="images/about.png" alt="About Watch">
+                </div>
+
+                <div class="about-text reveal-hidden slide-right">
+                    <span class="section-subtitle">About VELORA</span>
+                    <h2>Designed For Those Who Value Every Second</h2>
+                    <p>At VELORA, every watch is a masterpiece of precision, combining premium materials with timeless craftsmanship. Our collections are created for individuals who appreciate luxury, performance, and elegance.</p>
+
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fa-solid fa-gem"></i>
+                            <div>
+                                <h4>Premium Materials</h4>
+                                <p>Crafted using high-quality stainless steel and sapphire crystal.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <div>
+                                <h4>5 Years Warranty</h4>
+                                <p>Every luxury watch is backed by our trusted warranty.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fa-solid fa-water"></i>
+                            <div>
+                                <h4>Water Resistant</h4>
+                                <p>Engineered to perform perfectly in every condition.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#collection" class="btn btn-primary">Discover More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection -->
+    <section class="collection" id="collection">
+        <div class="container">
+            <div class="section-title reveal-hidden">
+                <span>Our Collection</span>
+                <h2>Luxury Watches</h2>
+                <p>Discover our exclusive collection of premium timepieces, designed with elegance, precision, and timeless craftsmanship.</p>
+            </div>
+
+            <div class="collection-grid">
+                <!-- Watch 1 -->
+                <div class="watch-card interactive-card reveal-hidden scale-up">
+                    <img src="images/watch1.png" alt="Royal Black">
+                    <div class="watch-content">
+                        <h3>Royal Black</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4>$799</h4>
+                        <div class="watch-buttons">
+                            <button class="details-btn">View Details</button>
+                            <button class="cart-btn">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Watch 2 -->
+                <div class="watch-card interactive-card reveal-hidden scale-up">
+                    <img src="images/watch3.png" alt="Golden Elite">
+                    <div class="watch-content">
+                        <h3>Golden Elite</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4>$999</h4>
+                        <div class="watch-buttons">
+                            <button class="details-btn">View Details</button>
+                            <button class="cart-btn">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Watch 3 -->
+                <div class="watch-card interactive-card reveal-hidden scale-up">
+                    <img src="images/watch4.png" alt="Titanium Pro">
+                    <div class="watch-content">
+                        <h3>Titanium Pro</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4>$899</h4>
+                        <div class="watch-buttons">
+                            <button class="details-btn">View Details</button>
+                            <button class="cart-btn">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Watch 4 -->
+                <div class="watch-card interactive-card reveal-hidden scale-up">
+                    <img src="images/watch2.png" alt="Ocean Blue">
+                    <div class="watch-content">
+                        <h3>Ocean Blue</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4>$849</h4>
+                        <div class="watch-buttons">
+                            <button class="details-btn">View Details</button>
+                            <button class="cart-btn">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Watch 5 -->
+                <div class="watch-card interactive-card reveal-hidden scale-up">
+                    <img src="images/watch5.png" alt="Silver Moon">
+                    <div class="watch-content">
+                        <h3>Silver Moon</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4>$749</h4>
+                        <div class="watch-buttons">
+                            <button class="details-btn">View Details</button>
+                            <button class="cart-btn">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Watch 6 -->
+                <div class="watch-card interactive-card reveal-hidden scale-up">
+                    <img src="images/watch6.png" alt="Carbon X">
+                    <div class="watch-content">
+                        <h3>Carbon X</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4>$949</h4>
+                        <div class="watch-buttons">
+                            <button class="details-btn">View Details</button>
+                            <button class="cart-btn">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title reveal-hidden">
+                <span>Why Choose Us</span>
+                <h2>Luxury Beyond Time</h2>
+                <p>We create exceptional watches with precision, premium materials, and timeless designs.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card interactive-card reveal-hidden scale-up">
+                    <i class="fa-solid fa-gem"></i>
+                    <h3>Premium Quality</h3>
+                    <p>Crafted with carefully selected materials for maximum durability and elegance.</p>
+                </div>
+                <div class="feature-card interactive-card reveal-hidden scale-up">
+                    <i class="fa-solid fa-clock"></i>
+                    <h3>Swiss Precision</h3>
+                    <p>Accurate movements designed for perfect performance every second.</p>
+                </div>
+                <div class="feature-card interactive-card reveal-hidden scale-up">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <h3>Free Shipping</h3>
+                    <p>Fast and secure delivery directly to your door.</p>
+                </div>
+                <div class="feature-card interactive-card reveal-hidden scale-up">
+                    <i class="fa-solid fa-lock"></i>
+                    <h3>Secure Payment</h3>
+                    <p>Safe payment methods with complete protection.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title reveal-hidden">
+                <span>Testimonials</span>
+                <h2>What Our Clients Say</h2>
+            </div>
+
+            <div class="testimonial-grid">
+                <div class="testimonial-card reveal-hidden scale-up">
+                    <img src="images/client-1.jpg" alt="Client">
+                    <h3>James Wilson</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Amazing craftsmanship and incredible attention to detail. My favorite watch."</p>
+                </div>
+                <div class="testimonial-card reveal-hidden scale-up">
+                    <img src="images/client-2.jpg" alt="Client">
+                    <h3>Michael Brown</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"VELORA delivers luxury and quality beyond expectations."</p>
+                </div>
+                <div class="testimonial-card reveal-hidden scale-up">
+                    <img src="images/client-3.jpg" alt="Client">
+                    <h3>Daniel Smith</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Elegant design, perfect comfort, and premium experience."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-title reveal-hidden">
+                <span>Gallery</span>
+                <h2>Our Luxury Moments</h2>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item reveal-hidden scale-up"><img src="images/gallery-1.jpg" alt="Luxury Watch"></div>
+                <div class="gallery-item reveal-hidden scale-up"><img src="images/gallery-2.jpg" alt="Luxury Watch"></div>
+                <div class="gallery-item reveal-hidden scale-up"><img src="images/gallery-3.jpg" alt="Luxury Watch"></div>
+                <div class="gallery-item reveal-hidden scale-up"><img src="images/gallery-4.jpg" alt="Luxury Watch"></div>
+                <div class="gallery-item reveal-hidden scale-up"><img src="images/gallery-5.jpg" alt="Luxury Watch"></div>
+                <div class="gallery-item reveal-hidden scale-up"><img src="images/gallery-6.png" alt="Luxury Watch"></div>
+                <div class="gallery-item reveal-hidden scale-up"><img src="images/gallery-7.png" alt="Luxury Watch"></div>
+                <div class="gallery-item reveal-hidden scale-up"><img src="images/gallery-8.png" alt="Luxury Watch"></div>
+                <div class="gallery-item reveal-hidden scale-up"><img src="images/gallery-9.png" alt="Luxury Watch"></div>
+                <div class="gallery-item reveal-hidden scale-up"><img src="images/gallery-10.png" alt="Luxury Watch"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-title reveal-hidden">
+                <span>FAQ</span>
+                <h2>Frequently Asked Questions</h2>
+                <p>Find answers to the most common questions about our luxury watches.</p>
+            </div>
+
+            <div class="faq-container reveal-hidden">
+                <div class="faq-box">
+                    <button class="faq-question">
+                        Are VELORA watches water resistant?
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes. All VELORA watches are water resistant and designed for everyday use. Water resistance varies by model.</p>
+                    </div>
+                </div>
+                <div class="faq-box">
+                    <button class="faq-question">
+                        Do you offer international shipping?
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes. We provide secure worldwide shipping with tracking for every order.</p>
+                    </div>
+                </div>
+                <div class="faq-box">
+                    <button class="faq-question">
+                        How long is the warranty?
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Every VELORA watch includes a 5-year international warranty covering manufacturing defects.</p>
+                    </div>
+                </div>
+                <div class="faq-box">
+                    <button class="faq-question">
+                        What payment methods do you accept?
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We accept Visa, MasterCard, PayPal, Apple Pay, and other secure payment methods.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title reveal-hidden">
+                <span>Contact Us</span>
+                <h2>Get In Touch</h2>
+                <p>Have questions about our luxury watches? We'd love to hear from you.</p>
+            </div>
+
+            <div class="contact-form reveal-hidden">
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Write Your Message..." required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>VELORA</h2>
+                    <p>Luxury Watches Crafted With Timeless Elegance.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                © 2026 VELORA. All Rights Reserved.
+            </div>
+        </div>
+    </</footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
