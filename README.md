@@ -1,31 +1,28 @@
-# ⌚ VELORA
+# VELORA
 
-A modern and elegant luxury watch website built with HTML, CSS, and JavaScript.
+A responsive luxury watch website focused on product presentation and modern UI design.
 
-## 🚀 Live Demo
+## Live Demo
 
-https://zcvbnklpoiu-netizen.github.io/VELORA/
+[Open the live demo](https://zcvbnklpoiu-netizen.github.io/VELORA/)
 
-## 🛠️ Technologies
+## Features
+
+- Luxury watch showcase.
+- Product gallery.
+- Responsive layout.
+- Modern UI presentation.
+- Interactive hover effects.
+- Smooth visual animations.
+
+## Technologies
 
 - HTML5
 - CSS3
 - JavaScript
 - Responsive Web Design
 
-## ✨ Features
-
-- ⌚ Luxury Watch Showcase
-- 🎨 Modern and Elegant UI
-- 📱 Fully Responsive Design
-- 🖼️ Product Gallery
-- 🔍 Interactive Elements
-- ✨ Smooth Animations
-- 🖱️ Hover Effects
-- 📲 Mobile-Friendly Navigation
-- ⚡ Fast and Lightweight
-
-## 📂 Project Structure
+## Project Structure
 
 ```text
 VELORA/
@@ -33,3 +30,12 @@ VELORA/
 ├── style.css
 ├── script.js
 └── images/
+```
+
+## Run Locally
+
+Open `index.html` in a browser, or serve the project with any local static server.
+
+## Repository
+
+[View the source code on GitHub](https://github.com/zcvbnklpoiu-netizen/VELORA)
