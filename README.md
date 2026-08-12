@@ -30,8 +30,6 @@ https://zcvbnklpoiu-netizen.github.io/VELORA/
 ```text
 VELORA/
 ├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
+├── style.css
+├── script.js
 └── images/
