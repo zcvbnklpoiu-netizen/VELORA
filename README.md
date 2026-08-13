@@ -2,40 +2,21 @@
 
 A responsive luxury watch website focused on product presentation and modern UI design.
 
-## Live Demo
-
-[Open the live demo](https://zcvbnklpoiu-netizen.github.io/VELORA/)
-
 ## Features
 
-- Luxury watch showcase.
-- Product gallery.
+- Luxury watch showcase and product gallery.
 - Responsive layout.
-- Modern UI presentation.
-- Interactive hover effects.
-- Smooth visual animations.
+- Modern product presentation.
+- Interactive hover effects and smooth visual animations.
 
-## Technologies
+## Tech stack
 
-- HTML5
-- CSS3
-- JavaScript
-- Responsive Web Design
+HTML5 · CSS3 · JavaScript · Responsive Web Design
 
-## Project Structure
+## Live demo and repository
 
-```text
-VELORA/
-├── index.html
-├── style.css
-├── script.js
-└── images/
-```
+[Open the live demo](https://zcvbnklpoiu-netizen.github.io/VELORA/) · [View the repository](https://github.com/zcvbnklpoiu-netizen/VELORA)
 
-## Run Locally
+## Run locally
 
-Open `index.html` in a browser, or serve the project with any local static server.
-
-## Repository
-
-[View the source code on GitHub](https://github.com/zcvbnklpoiu-netizen/VELORA)
+Open `index.html` in a browser, or serve the folder with any local static server.
